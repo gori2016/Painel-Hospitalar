@@ -1,5 +1,6 @@
 import Header from "../header/Header"
 import styles from '../forms/Cadastrar.module.css'
+import { Link } from "react-router-dom"
 
 function Login() {
     return (
@@ -17,7 +18,7 @@ function Login() {
                         </div>
                         <div className={styles.naoPossuiCadastro}>
                             <p>Não possui cadastro?
-                                Cadastre-se
+                               <Link to="/cadastrar">Cadastre-se</Link> 
                             </p>
                         </div>
                         <div className="mb-3">

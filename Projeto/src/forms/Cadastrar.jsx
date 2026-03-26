@@ -1,5 +1,6 @@
 import Header from "../header/Header"
 import styles from '../forms/Cadastrar.module.css'
+import { Link } from "react-router-dom"
 
 function Login() {
     return (
@@ -23,6 +24,9 @@ function Login() {
 
                         <button type="submit" className="btn btn-primary w-100">
                             Cadastrar
+                        </button>
+                        <button type="submit" className={`${styles.botao} btn btn-secondary w-100`} >
+                            <Link className={styles.botao} to="/login">Voltar para a tela de Login</Link>
                         </button>
                     </form>
                 </div>

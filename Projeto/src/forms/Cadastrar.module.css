@@ -23,3 +23,9 @@ h3{
     display: flex;
     justify-content: end;
 }
+
+.botao{
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
