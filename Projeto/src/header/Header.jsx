@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className={styles.headerPrincipal}>
             <img className={styles.logo} src={logo} alt="" />
-            <ul>
+            <ul className={styles.inter}>
                 {textoHeader.map((texto) => {
 
                     return <li>{texto}</li>
