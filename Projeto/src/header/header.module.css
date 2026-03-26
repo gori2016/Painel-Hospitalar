@@ -1,0 +1,23 @@
+.headerPrincipal{
+    width: 100%;
+    height: 194px;
+    background-color: #00C6FF;
+    display: flex;
+}
+
+.logo{
+    width: 278px;
+    height: 151px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.headerPrincipal>ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.headerPrincipal>li{
+    font-size: 2.5rem;
+}
