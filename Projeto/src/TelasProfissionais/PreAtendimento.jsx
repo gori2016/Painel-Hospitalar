@@ -13,9 +13,8 @@ function preAtendimento() {
                     <h3 className="text-center mb-3">Fila de Espera</h3>
 
                     <form>
-                        <div className="mb-3 d-flex align-items-center">
-                            <label className="form-label mb-0 me-2">Nome:</label>
-                            <button type="button" className="btn btn-dark btn-sm">IgoorSep</button>
+                        <div className="mb-3 d-flex  align-items-center">
+                            <p>Nome: </p>
                         </div>
                     </form>
                 </section>
