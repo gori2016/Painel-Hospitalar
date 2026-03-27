@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A3A5C;
+    width: 100%;
+    min-height: 100vh; /* Mantém o fundo azul na tela toda */
+}
+
+/* Criamos esta classe para o que vem DEPOIS do Header */
+.contentArea {
+    flex: 1;             /* Ocupa todo o espaço que sobra abaixo do Header */
+    display: flex;
+    justify-content: center; /* Centraliza o card na horizontal */
+    align-items: center;     /* Centraliza o card na vertical (impede de esticar) */
+    padding-bottom: 50px;    /* Ajuste visual para não ficar colado no rodapé */
+}

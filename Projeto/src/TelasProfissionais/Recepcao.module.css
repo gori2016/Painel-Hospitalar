@@ -1,0 +1,52 @@
+.alinhamento{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+section, .container {
+  flex: 1;            /* Faz com que ambos cresçam igualmente (50% cada) */
+  justify-content: center;
+  align-items: center;
+  
+}
+
+section{
+    margin: 25px;
+}
+
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1A3A5C;
+  
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: bold;
+}
+
+.naoPossuiCadastro{
+    display: flex;
+    justify-content: end;
+}
+
+.botao{
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
