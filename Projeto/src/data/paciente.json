@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nome": "João Silva",
+    "cpf": "123.456.789-00",
+    "queixa": "Dor de cabeça intensa",
+    "status": "PRE_ATENDIMENTO",
+    "alergias": "",
+    "medicamentos": "",
+    "observacoes": ""
+  },
+
+
+   {
+    "id": 2,
+    "nome": "igor",
+    "cpf": "123.456.789-00",
+    "queixa": "Dor de cabeça intensa",
+    "status": "PRE_ATENDIMENTO",
+    "alergias": "",
+    "medicamentos": "",
+    "observacoes": ""
+  }
+]

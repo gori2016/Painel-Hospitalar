@@ -14,3 +14,7 @@
     align-items: center;     /* Centraliza o card na vertical (impede de esticar) */
     padding-bottom: 50px;    /* Ajuste visual para não ficar colado no rodapé */
 }
+
+.paragrafoNome{
+    margin: 10px;
+}
