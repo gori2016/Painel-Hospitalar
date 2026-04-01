@@ -6,18 +6,23 @@ import Login from './forms/Login'
 import { Routes, Route } from 'react-router-dom'
 import Recepcao from './TelasProfissionais/Recepcao'
 import PreAtendimento from './TelasProfissionais/PreAtendimento'
+import { FilaProvider } from './context/filaContext';
+
 
 function App() {
 
 
   return (
     <div>
-      <Routes>
-        <Route path='/cadastrar' element={<Cadastrar />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/recepcao' element={<Recepcao/>}></Route>
-        <Route path='/preAtendimento' element={<PreAtendimento/>}></Route>
-      </Routes>
+      <FilaProvider>
+        <Routes>
+          <Route path='/cadastrar' element={<Cadastrar />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/recepcao' element={<Recepcao />}></Route>
+          <Route path='/preAtendimento' element={<PreAtendimento />}></Route>
+        </Routes>
+      </FilaProvider>
+
     </div>
 
 
