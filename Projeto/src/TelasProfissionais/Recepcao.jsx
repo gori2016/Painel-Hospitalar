@@ -34,10 +34,9 @@ function Recepcao() {
         setQueixa("");
     }
 
-    // 3. Função encaminhar (precisa existir para o botão funcionar)
+
     function encaminhar(id) {
         console.log("Encaminhando paciente:", id);
-        // Aqui você faria a lógica de mudar o status ou mover de lista
     }
 
     // O RETURN PRECISA ESTAR DENTRO DA FUNÇÃO RECEPCAO
@@ -47,7 +46,9 @@ function Recepcao() {
             <div className={styles.alinhamento}>
                 <div className={styles.container}>
                     <div className={styles.content}>
-                        <div className="card p-4 shadow" style={{ width: '350px' }}>
+                        <div className="card p-4 shadow w-[350px] mt-[120px] mx-auto"
+                            style={{ width: '350px', marginTop: '220px' }}
+                        >
                             <h3 className="text-center mb-3">Cadastro de Paciente</h3>
 
                             {/* 4. Adicionado o onSubmit aqui */}
@@ -124,6 +125,6 @@ function Recepcao() {
             </div>
         </main>
     );
-} // <--- A função Recepcao agora fecha aqui, DEPOIS do return.
+}
 
 export default Recepcao;

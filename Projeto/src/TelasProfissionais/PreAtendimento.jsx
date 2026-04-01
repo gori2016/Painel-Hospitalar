@@ -26,7 +26,7 @@ function PreAtendimento() {
       <Header />
 
       <div className="container mt-4">
-        <div className="card shadow mx-auto" style={{ maxWidth: '450px' }}>
+        <div className="card shadow mx-auto" style={{ width: '350px', marginTop: '220px' }} >
           <div className="card-body">
             <h3 className="card-title text-center mb-4">Fila de Espera</h3>
 
