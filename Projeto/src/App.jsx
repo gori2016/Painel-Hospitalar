@@ -6,7 +6,8 @@ import Login from './forms/Login'
 import { Routes, Route } from 'react-router-dom'
 import Recepcao from './TelasProfissionais/Recepcao'
 import PreAtendimento from './TelasProfissionais/PreAtendimento'
-import { FilaProvider } from './context/filaContext';
+import { FilaProvider } from './context/FilaContext';
+import TelaPrincipal from './telasPrincipais/TelaPrincipal'
 
 
 function App() {
@@ -20,9 +21,9 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/recepcao' element={<Recepcao />}></Route>
           <Route path='/preAtendimento' element={<PreAtendimento />}></Route>
+          <Route path='/telaPrincipal' element={<TelaPrincipal/>}></Route>
         </Routes>
       </FilaProvider>
-
     </div>
 
 

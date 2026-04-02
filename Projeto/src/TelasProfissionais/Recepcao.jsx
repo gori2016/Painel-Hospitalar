@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Recepcao.module.css';
 import Header from "../header/Header2";
 import { Link } from 'react-router-dom';
-import { useFila } from '../context/filaContext'
+import { useFila } from '../context/FilaContext'
 
 function Recepcao() {
     const [nome, setNome] = useState("");

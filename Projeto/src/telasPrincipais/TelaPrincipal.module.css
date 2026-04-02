@@ -1,0 +1,57 @@
+.container {
+    background-color: #1A3A5C;
+    min-height: 50vh;
+    padding-top: 194px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo {
+    color: white;
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.125rem;
+    padding-top: 25px;
+
+}
+
+.paragrafoConsultorio {
+    color: white;
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.75rem;
+    padding-top: 25px;
+
+}
+
+.textoPrincipal {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 4rem;
+}
+
+.chamada {
+    width: 301px;
+    height: 50px;
+    background-color: #AE0A0A;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada>p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    margin-top: 10px;
+}

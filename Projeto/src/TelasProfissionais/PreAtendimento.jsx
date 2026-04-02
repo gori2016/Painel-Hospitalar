@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Header from "../header/Header2";
 import styles from '../TelasProfissionais/preAtendimento.module.css';
-import { useFila } from '../context/filaContext'
+import { useFila } from '../context/FilaContext'
 
 function PreAtendimento() {
     const [pacienteSelecionado, setPacienteSelecionado] = useState(null);
     const [aberto, setAberto] = useState(false);
 
-    const { fila } = useFila(); // ✅ desestruturação correta com chaves {}
+    const { fila } = useFila(); // 
 
     const abrirPopup = (paciente) => {
         setPacienteSelecionado(paciente);
